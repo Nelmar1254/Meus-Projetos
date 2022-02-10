@@ -1,0 +1,69 @@
+body{
+background-color: black;
+margin: 0;
+}
+
+
+h1{ 
+    font-size: 100px;
+    color: white;
+}
+
+.white{
+    color: white;
+}
+
+div.painel{
+    background-color: grey;
+    width: 50%;
+    min-width: 250px;
+    padding: 15px 15px;
+    box-shadow: 5px 5px black;
+}
+
+div.navbar{
+    overflow: hidden;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 5px 5px black;
+}
+
+div.navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;  
+}
+
+div.navbar a.right{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none; 
+
+}
+
+div.navbar a.img{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px ;
+    text-decoration: none; 
+}
+
+table{
+    float: center;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border-collapse: collapse;
+}
